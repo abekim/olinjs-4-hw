@@ -45,6 +45,11 @@ form input[type='text'] {
   float: right;
 }
 
+button {
+  border: black 3px solid;
+  background-color: #AAAAAA;
+}
+
 form input[type='submit'], form button {
   border: black 3px solid;
   background-color: #AAAAAA;
