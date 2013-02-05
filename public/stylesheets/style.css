@@ -1,8 +1,73 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #50A6C2;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  text-align:center;
+}
+
+form {
+  background-color: #919191;
+  border: black 5px solid;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: inline-block;
+  position: fixed;
+  width: 22%;
+}
+
+form h2 {
+  font-size: 20px;
+  max-width: 30%;
+  display: inline-block;
+}
+
+form textarea {
+  background-color: #CDCDCD;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  float: right;
+  width: 60%;
+}
+
+form input[type='text'] {
+  background-color: #CDCDCD;
+  display: inline-block;
+  margin-top: 15px;
+  width: 60%;
+  float: right;
+}
+
+form input[type='submit'], form button {
+  border: black 3px solid;
+  background-color: #AAAAAA;
+  float: right;
+}
+
+#logout {
+  text-align: right;
+}
+
+.tweetHeader {
+  vertical-align: bottom;
+  text-align: center;
+  border-bottom: black 5px solid;
+}
+
+.tweets {
+  background-color: #919191;
+  border: black 5px solid;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-left: 30%;
+  width: 60%;
+  display: inline-block;
+  position: relative;
 }

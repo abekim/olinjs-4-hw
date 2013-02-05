@@ -2,4 +2,16 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+
+  div(id="loggedin", style="display:none") #{logged}
+
+  form(method="POST", id="compose", action="/")
+    h2 Compose a Tweet
+    textarea(name="msg", maxlength="140")
+    br
+    input(type="submit", value="Send Tweet")
+
+  a(href="/users/new", id="login", style="display:block")
+      button Login
+
+  include _tweets

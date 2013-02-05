@@ -1,0 +1,5 @@
+div(class="tweets")
+  h2(class="tweetHeader") Look at all these tweets!
+  each tweet, i in tweets
+    h3 #{tweet._user.name}
+    div #{tweet.text}
